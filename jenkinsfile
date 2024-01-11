@@ -1,26 +1,25 @@
 pipeline{
-    
     agentany
     
     stages{
-        stage('Build'){
+        stage('Build') {
             steps{
-                echo"buildcompletedsuccessful"
+                echo "build completed successful"
             }
         }
-        stage('Test'){
+        stage('Test') {
             steps{
-                echo"testcompletedsuccessful"
+                echo "test completed successful"
             }
         }
-        stage('Package'){
+        stage('Package') {
             steps{
-                echo"packagecompletedsuccessful"
+                echo "package completed successful"
             }
         }
-        stage('Deploy'){
+        stage('Deploy') {
             steps{
-                echo"deploycompletedsuccessful"
+                echo "deploy completed successful"
             }
         }
     }
